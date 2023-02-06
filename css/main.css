@@ -1,0 +1,2036 @@
+html,body{margin: 0; font-size: 16px;-ms-overflow-style:none;}
+::-webkit-scrollbar{
+    display: none;
+}
+
+body {
+    font-style: normal;
+    font-family: Aharoni,Spoqa Han Sans, sans-serif;
+}
+/* <span class="material-symbols-outlined">expand_less </span>
+하단 아이콘 ^*/
+
+/* <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" /> 
+화살표 아잉콘 ->*/
+
+/* <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" / 
+화살 아이콘 < */
+
+
+/* <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
+화살 아이콘 < */
+
+
+/*head*/
+
+.head01{
+
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    display: flex;
+    
+}
+.head02{
+    width: 61px;
+    height: 61px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.head02 img{
+    width: 61px;
+    height: 61px;
+}
+.head03{
+    width: 440px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+.head03 > a{
+    text-decoration: none;
+    color: black;
+}
+.head03 > a{
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0px;
+    font-style: normal;
+    font-family: Aharoni,Spoqa Han Sans, sans-serif;
+    line-height: 1.5;
+}
+.head03 > a:nth-child(1){
+    color: #fde700;
+}
+.head03 span:hover{
+    cursor: pointer;
+    color: gray;
+}
+.snsn01{
+    width: 228px;
+    height:100px;
+    position: absolute;
+    right: 0;
+}
+
+.snsn02{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.snsn02 > div > img{
+    width: 19px;
+    height: 19px;
+}
+.snsn02 > div:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.head04{
+    
+    display: flex;
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+}
+
+header > div > div ul{
+    padding-left: 0;
+}
+
+.head05{
+    list-style: none;
+    width: 1700px;
+    padding-left: 60px;
+
+}
+.point01{
+    
+    position: relative;
+}
+.point01 > div{
+    position: absolute;
+    top: 30%;
+    left: 6%;
+}
+.point01 p {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.2;
+    font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+}
+.head05 div img{
+    width: 14px;
+    height: 14px;
+}
+.point01 > span{
+    font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    color: #363636;
+    opacity: 0.4;
+    font-weight: 600;
+}
+
+
+.btn01{
+    margin-top: 60px;
+}
+.btn01 > button{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 17px 24px 21px 20px;
+    text-align: left;
+    background-color: #fff;
+    color: #333;
+    border-color: rgba(54, 54, 54, 0.2);
+    border-width: 1px;
+    width: 260px;
+    position: relative;
+    font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+}
+.btn01 > button > span{
+    position: absolute;
+    right: 8px;
+    margin-right: 10px;
+    margin-top: -1px;
+}
+.btn01 > button:hover{
+    cursor: pointer;
+    background-color: #fde700;
+    border: none;
+    transition: 1s;
+}
+.fixx{
+    background-color: #fff;
+    position: sticky;
+    z-index: 999;
+    top: 0px;
+}
+
+
+
+/* main */
+.main01{
+    margin-top: 120px;
+    padding-bottom: 162px;
+    background-color: #FAFAFA;
+}
+
+.point02{
+    display: flex;
+    padding: 140px 0 50px 0;
+    margin-left: 100px;
+}
+
+.point02 > h2{ 
+    display: flex;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+    
+}
+.point02 img{
+    width: 14px;
+    height: 14px; 
+}
+
+.main02{
+    height: 100%;
+    width: 100%;
+
+}
+.fst{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.fst > div img{
+    width: 340px;
+    height: 340px;
+}
+.fst img{
+    width: 100%;
+    height: 100%;
+}
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   margin-left: 100px;
+   margin-right: 100px;
+}
+.sec img{
+    width: 340px;
+    height: 340px;
+}
+
+
+
+
+.main03{
+    margin-top: 100px;
+    width: 500px;
+    margin-left: 100px;
+    position: relative;
+}
+.main03 > h2{
+    font-weight: 1000;
+    font-size: 32px;
+    line-height: 1.2;
+    color: inherit;
+    font-style: normal;
+    font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+}
+.point03{
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    left:58%;
+    top: 10%;
+}
+.crs p{
+    font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    color: #363636;
+    opacity: 0.4;
+    font-weight: 600;
+}
+
+
+.btn02{
+    margin-left: 100px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.btn02 > button{
+    border: 1px solid ;
+    width: 260px;
+    padding: 17px 24px 21px 20px;
+    text-align: left;
+    position: relative;
+    font-size: 14px;
+    background-color: #fff;
+    color: rgba(54, 54, 54, 0.85) !important;
+    border-color: rgba(54, 54, 54, 0.2);
+    font-weight: 700;
+    font-style: normal;
+    line-height: 1.42857143;
+    font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+
+}
+.btn02 button > span{
+    
+    position: absolute;
+    right: 8px;
+    margin-right: 10px;
+    margin-top: -1px;
+}
+.btn02 > button:hover{
+    cursor: pointer;
+    background-color: #fde700;
+    border: none;
+    transition: 1s;
+}
+
+/* footer */
+.foot01{ 
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 120px;
+}
+.sub01{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.sub01 > div {
+    width: 40px;
+    height: 40px;
+    font-weight: 800;
+}
+.sub01 > div:nth-child(1){
+    position: absolute;
+    left: 0%;
+    margin-top: 200px;
+    margin-left: 10px;
+    padding: 8px 10px 8px 10px;
+}
+.sub01 > div:nth-child(1) > span{
+    padding: 8px 8px 8px 12px;
+    
+}
+
+.sub01 > div:nth-child(2){
+    position: absolute;
+    right: 0%;
+    margin-top: 200px;
+    margin-right: 10px;
+}
+.sub01 > div:nth-child(2) > span{
+    padding: 10px 10px 10px 10px;
+}
+.sub01 > div > span{
+    border: 1px solid rgba(54, 54, 54, 0.2);
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+
+.sub02{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.sub02 > div > a > img {
+    width: 410px;
+    height: 410px;
+}
+
+.sub02 > div:hover::after{
+    content: '';
+    display: block;
+    background:linear-gradient(0deg, rgba(253,231,0,1) 0%, rgba(253,231,0,0) 100%) !important;
+    position: absolute;
+    z-index: 1;
+    left:1;
+    top: 0;
+    width: 410px;
+    height: 410px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*하단 배경*/
+.top h2,
+.mid p,
+.bottom p{
+    margin: 0px;
+    padding: 0px;
+}
+.foot02{
+    background-color: #FAFAFA;
+    height: 354px;
+    width: 100%;
+}
+.hadan{
+    border-bottom: 1px solid #e5e7eb;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.top img{
+   
+    width: 200px;
+    margin-left: 0;
+    text-align: left;
+    margin: 5px auto;
+    
+}
+.mid p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    font-style: normal;
+    font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    color: inherit;
+}
+.bottom a{
+    margin-top: 8px;
+    margin-bottom: 7px;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-100%);
+}
+.mid span{
+    margin-bottom: 30px;
+}
+.mid > button{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+}
+
+.mid > span{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(54, 54, 54, 0.4) !important;
+    letter-spacing: -0.5px !important;
+    cursor: pointer;
+    line-height: 1.42857143;
+    font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+}
+.mid > span > img{
+    width: 14px;
+    height: 14px;
+}
+
+.mid > button{
+    background-color: #FAFAFA;
+    border-color: rgba(54, 54, 54, 0.2);
+    padding: 17px 24px 21px 20px;
+    text-align: left;
+    position: relative;
+    font-size: 13px !important;
+    font-weight: 600;
+    color: rgba(54, 54, 54, 0.85) !important;
+    font-style: normal;
+    line-height: 1.42857143;font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif'; 
+}
+.bottom a{
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(54, 54, 54, 0.65) !important;
+    border-color: rgba(0, 0, 0, 0.2);
+    font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.42857143;
+}
+.mid button > span{
+    position: absolute;
+    right: 8px;
+    margin-right: 10px;
+    margin-top: -1px;
+}
+
+.hadan > h2 {
+    font-size: 34px;
+}
+.hadan02{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.hadan02 > span > img{
+    width: 15px;
+    height: 15px;
+}
+
+
+.mid > button:hover{
+    cursor: pointer;
+    border: none;
+    background-color: #fde700;
+    transition: 1s;
+}
+
+
+@media screen and (max-width:1400px) {
+    .head05{
+        list-style: none;
+        width: 100%;
+        padding-left: 60px;
+    }
+    .point01{
+        position: relative;
+        width: 100%;
+    }
+    .point01 > div{
+        position: absolute;
+        top: 30%;
+        left: 38%;
+    }
+    .point01 p {
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 1.2;
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    .head05 div img{
+        width: 14px;
+        height: 14px;
+    }
+    .point01 > span{
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        color: #363636;
+        opacity: 0.4;
+        font-weight: 600;
+    }
+    
+    
+    .main01{
+        /* border: 1px solid red; */
+        margin-top: 50px;
+        padding-bottom: 0;
+        width: 100%;
+        background-color: #FAFAFA;
+    }
+    
+    .point02{
+        display: flex;
+        padding: 140px 0 50px 0;
+        margin-left: 100px;
+    }
+    
+    .point02 > h2{ 
+        display: flex;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 1.2;
+        margin-bottom: 16px;
+        
+    }
+    .point02 img{
+        width: 14px;
+        height: 14px; 
+    }
+    
+    .main02{
+        height: 100%;
+        width: 100%;
+    }
+    .fst{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* border: 1px solid red; */
+    }
+    .fst > div img{
+        width: 230px;
+        height: 230px;
+    }
+    .fst img{
+        width: 100%;
+        height: 100%;
+    }
+    .sec{
+        /* border: 1px solid red; */
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+       /* margin-left: 100px; */
+    }
+    .sec > div img{
+        width: 230px;
+        height: 230px;
+    }
+
+    .foot02{
+        background-color: #FAFAFA;
+        height: 354px;
+        width: 100%;
+    }
+    .hadan{
+        /* border: 1px solid red; */
+        border-bottom: 1px solid #e5e7eb;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .top img{
+       
+        width: 200px;
+        margin-left: 0;
+        text-align: left;
+        margin: 5px auto;
+        
+    }
+    .mid p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 2px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.4;
+        font-style: normal;
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        color: inherit;
+    }
+    .bottom a{
+        margin-top: 8px;
+        margin-bottom: 7px;
+    }
+    .mid{
+        display: flex;
+        flex-direction: column;
+        transform: translateX(-40%);
+    }
+    .mid span{
+        margin-bottom: 30px;
+    }
+    .mid > button{
+        font-size: 14px;
+        font-weight: 600;
+        font-style: normal;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    
+    .mid > span{
+        font-weight: 600;
+        font-size: 14px;
+        color: rgba(54, 54, 54, 0.4) !important;
+        letter-spacing: -0.5px !important;
+        cursor: pointer;
+        line-height: 1.42857143;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    .mid > span > img{
+        width: 14px;
+        height: 14px;
+    }
+    
+    .mid > button{
+        background-color: #FAFAFA;
+        border-color: rgba(54, 54, 54, 0.2);
+        padding: 17px 24px 21px 20px;
+        text-align: left;
+        position: relative;
+        font-size: 13px !important;
+        font-weight: 600;
+        color: rgba(54, 54, 54, 0.85) !important;
+        font-style: normal;
+        line-height: 1.42857143;font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif'; 
+    }
+    .bottom a{
+        font-size: 18px;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgba(54, 54, 54, 0.65) !important;
+        border-color: rgba(0, 0, 0, 0.2);
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        font-weight: 600;
+        font-style: normal;
+        line-height: 1.42857143;
+    }
+    .mid button > span{
+        position: absolute;
+        right: 8px;
+        margin-right: 10px;
+        margin-top: -1px;
+    }
+    
+    .hadan > h2 {
+        font-size: 34px;
+    }
+    .hadan02{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .hadan02 > span > img{
+        width: 15px;
+        height: 15px;
+    }
+    
+    
+    .mid > button:hover{
+        cursor: pointer;
+        border: none;
+        background-color: #fde700;
+        transition: 1s;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .head02{
+        width: 61px;
+        height: 61px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    .head02 img{
+        width: 61px;
+        height: 61px;
+    }
+    .head03{
+        width: 350px;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 100px;
+    }
+  
+    .head03 > a{
+        font-weight: bold;
+        font-size: 14px;
+        letter-spacing: 0px;
+        font-style: normal;
+        font-family: Aharoni,Spoqa Han Sans, sans-serif;
+        line-height: 1.5;
+    }
+    
+    .snsn01{
+        width: 200px;
+        height:100px;
+        position: absolute;
+        right: 0;
+    }
+    
+    .snsn02{
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .snsn02 > div > img{
+        width: 19px;
+        height: 19px;
+    }    
+    .head04{
+        display: flex;
+        margin-left: 100px;
+        margin-bottom: 60px;
+    }
+    .head04 > iframe{
+        height: 500px;
+    }
+
+    .head05{
+        list-style: none;
+        width: 80%;
+        padding-left: 60px;
+    
+    }
+    .point01 > div{
+        position: absolute;
+        top: 20%;
+        left: 50%;
+    }
+    .point01 p {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    .head05 div img{
+        width: 12px;
+        height: 12px;
+    }
+    .point01 > span{
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        color: #363636;
+        opacity: 0.4;
+        font-weight: 600;
+        font-size: 15px;
+    }
+    
+    
+    .btn01{
+        margin-top: 60px;
+    }
+    .btn01 > button{
+        font-size: 14px;
+        font-weight: 600;
+        padding: 17px 24px 21px 20px;
+        text-align: left;
+        background-color: #fff;
+        color: #333;
+        border-color: rgba(54, 54, 54, 0.2);
+        border-width: 1px;
+        width: 260px;
+        position: relative;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    .btn01 > button > span{
+        position: absolute;
+        right: 8px;
+        margin-right: 10px;
+        margin-top: -1px;
+    }
+    .btn01 > button:hover{
+        cursor: pointer;
+        background-color: #fde700;
+        border: none;
+        transition: 1s;
+    }
+    
+    .main01{
+        margin-top: 50px;
+        padding-bottom: 50px;
+        background-color: #FAFAFA;
+    }
+    
+    .point02{
+        display: flex;
+        padding: 50px 0 50px 0;
+        margin-left: 100px;
+    }
+    
+    .point02 > h2{ 
+        display: flex;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 1.2;
+        margin-bottom: 16px;
+        
+    }
+    .point02 img{
+        width: 14px;
+        height: 14px; 
+    }
+    
+    .main02{
+        height: 100%;
+        width: 100%;
+    }
+    .fst{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .fst > div img{
+        width: 150px;
+        height: 150px;
+    }
+  
+    .sec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       margin-left: 100px;
+    }
+    .sec > div img{
+        width: 150px;
+        height: 150px;
+    }
+    
+    
+    .main03{
+        margin-top: 100px;
+        width: 500px;
+        margin-left: 100px;
+        position: relative;
+    }
+    .main03 > h2{
+        font-weight: 1000;
+        font-size: 20px;
+        line-height: 1.2;
+        color: inherit;
+        font-style: normal;
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    .point03{
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        left:38%;
+        top: 8%;
+    }
+    .crs p{
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        color: #363636;
+        opacity: 0.4;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    
+    
+    .btn02{
+        margin-left: 100px;
+        margin-top: 70px;
+        margin-bottom: 100px;
+    }
+    .btn02 > button{
+        border: 1px solid ;
+        width: 200px;
+        padding: 17px 24px 21px 20px;
+        text-align: left;
+        position: relative;
+        font-size: 14px;
+        background-color: #fff;
+        color: rgba(54, 54, 54, 0.85) !important;
+        border-color: rgba(54, 54, 54, 0.2);
+        font-weight: 700;
+        font-style: normal;
+        line-height: 1.42857143;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    
+    }
+    .btn02 button > span{
+        
+        position: absolute;
+        right: 8px;
+        margin-right: 10px;
+        margin-top: -1px;
+    }
+    .btn02 > button:hover{
+        cursor: pointer;
+        background-color: #fde700;
+        border: none;
+        transition: 1s;
+    }
+    
+    /* footer */
+    .foot01{ 
+        margin-left: 100px;
+        margin-bottom: 120px;
+    }
+    .sub01{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .sub01 > div {
+        width: 40px;
+        height: 40px;
+        font-weight: 800;
+    }
+    .sub01 > div:nth-child(1){
+        position: absolute;
+        left: 0%;
+        margin-top: 200px;
+        margin-left: 10px;
+        padding: 8px 10px 8px 10px;
+    }
+    .sub01 > div:nth-child(1) > span{
+        padding: 8px 8px 8px 12px;
+        
+    }
+    
+    .sub01 > div:nth-child(2){
+        position: absolute;
+        right: 0%;
+        margin-top: 200px;
+        margin-right: 10px;
+    }
+    .sub01 > div:nth-child(2) > span{
+        padding: 10px 10px 10px 10px;
+    }
+    .sub01 > div > span{
+        border: 1px solid rgba(54, 54, 54, 0.2);
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    
+    
+    .sub02{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    .sub02 > div > a > img {
+        width: 410px;
+        height: 410px;
+    }
+    
+    .sub02 > div:hover::after{
+        content: '';
+        display: block;
+        background:linear-gradient(0deg, rgba(253,231,0,1) 0%, rgba(253,231,0,0) 100%) !important;
+        position: absolute;
+        z-index: 1;
+        left:1;
+        top: 0;
+        width: 410px;
+        height: 410px;
+    }
+    
+    
+    /*하단 배경*/
+    .top h2,
+    .mid p,
+    .bottom p{
+        margin: 0px;
+        padding: 0px;
+    }
+    .foot02{
+        background-color: #FAFAFA;
+        height: 354px;
+        width: 100%;
+    }
+    .hadan{
+        border-bottom: 1px solid #e5e7eb;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .top img{
+       
+        width: 150px;
+        margin-left: 0;
+        text-align: left;
+        margin: 5px auto;
+        
+    }
+    .mid p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 2px;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 1.4;
+        font-style: normal;
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        color: inherit;
+    }
+    .bottom a{
+        margin-top: 8px;
+        margin-bottom: 7px;
+    }
+    .mid{
+        display: flex;
+        flex-direction: column;
+        transform: translateX(0%);
+    }
+    .mid > span{
+        margin-bottom: 30px;
+    }
+    .mid > button{
+        font-size: 10px;
+        font-weight: 600;
+        font-style: normal;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    
+    .mid > span{
+        font-weight: 600;
+        font-size: 10px;
+        color: rgba(54, 54, 54, 0.4) !important;
+        letter-spacing: -0.5px !important;
+        cursor: pointer;
+        line-height: 1.42857143;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    .mid > span > img{
+        width: 14px;
+        height: 14px;
+    }
+    
+    .mid > button{
+        background-color: #FAFAFA;
+        border-color: rgba(54, 54, 54, 0.2);
+        padding: 17px 24px 21px 20px;
+        text-align: left;
+        position: relative;
+        font-size: 10px !important;
+        font-weight: 600;
+        color: rgba(54, 54, 54, 0.85) !important;
+        font-style: normal;
+        line-height: 1.42857143;font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif'; 
+    }
+    .bottom a{
+        font-size: 12px;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgba(54, 54, 54, 0.65) !important;
+        border-color: rgba(0, 0, 0, 0.2);
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        font-weight: 600;
+        font-style: normal;
+        line-height: 1.42857143;
+    }
+    .mid button > span{
+        position: absolute;
+        right: 8px;
+        margin-right: 10px;
+        margin-top: -1px;
+    }
+    
+    .hadan > h2 {
+        font-size: 34px;
+    }
+    .hadan02{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .hadan02 > span > img{
+        width: 15px;
+        height: 15px;
+    }
+    
+    
+    .mid > button:hover{
+        cursor: pointer;
+        border: none;
+        background-color: #fde700;
+        transition: 1s;
+    }
+
+}
+
+
+/*///////////////////////////////////////////////////////////////*/
+
+
+
+
+
+@media screen and (max-width:767px) {
+    .head02{
+        width: 61px;
+        height: 61px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    .head02 img{
+        width: 50px;
+        height: 50px;
+    }
+    .head03{
+        width: 250px;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 100px;
+    }
+  
+    .head03 > a{
+        font-weight: bold;
+        font-size: 8px;
+        letter-spacing: 0px;
+        font-style: normal;
+        font-family: Aharoni,Spoqa Han Sans, sans-serif;
+        line-height: 1.5;
+    }
+    
+    .snsn01{
+        width: 100px;
+        height:100px;
+        position: absolute;
+        right: 0;
+    }
+    
+    .snsn02{
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .snsn02 > div > img{
+        width: 13px;
+        height: 13px;
+    }    
+    .head04{
+        display: flex;
+        margin-left: 100px;
+        margin-bottom: 60px;
+    }
+    .head04 > iframe{
+        height: 300px;
+    }
+
+    .head05{
+        list-style: none;
+        width: 80%;
+        padding-left: 60px;
+    
+    }
+    .point01 > div{
+        position: absolute;
+        top: 15%;
+        left: 52%;
+    }
+    .point01 p {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 1.2;
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    .point01 >  div img{
+        width: 10px;
+        height: 10px;
+    }
+    .head05 > div > span{
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        color: #363636;
+        opacity: 0.4;
+        font-weight: 600;
+        font-size: 10px;
+    }
+    
+    
+    .btn01{
+        margin-top: 60px;
+    }
+    .btn01 > button{
+        font-size: 10px;
+        font-weight: 600;
+        padding: 17px 24px 21px 20px;
+        text-align: left;
+        background-color: #fff;
+        color: #333;
+        border-color: rgba(54, 54, 54, 0.2);
+        border-width: 1px;
+        width: 150px;
+        position: relative;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    .btn01 > button > span{
+        position: absolute;
+        right: 8px;
+        margin-right: 10px;
+        margin-top: -1px;
+    }
+    .btn01 > button:hover{
+        cursor: pointer;
+        background-color: #fde700;
+        border: none;
+        transition: 1s;
+    }
+    
+    .main01{
+        margin-top: 50px;
+        padding-bottom: 50px;
+        background-color: #FAFAFA;
+    }
+    
+    .point02{
+        display: flex;
+        padding: 30px 0 50px 0;
+        margin-left: 100px;
+    }
+    
+    .point02 > h2{ 
+        display: flex;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1.2;
+        margin-bottom: 16px;
+        
+    }
+    .point02 img{
+        width: 10px;
+        height: 10px; 
+    }
+    
+    .main02{
+        height: 100%;
+        width: 100%;
+    }
+    .fst{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .fst > div img{
+        width: 130px;
+        height: 130px;
+    }
+  
+    .sec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       margin-left: 100px;
+    }
+    .sec > div img{
+        width: 130px;
+        height: 130px;
+    }
+    
+    
+    .main03{
+        margin-top: 50px;
+        width: 500px;
+        margin-left: 100px;
+        position: relative;
+    }
+    .main03 > h2{
+        font-weight: 1000;
+        font-size: 15px;
+        line-height: 1.2;
+        color: inherit;
+        font-style: normal;
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    .point03{
+        width: 10px;
+        height: 10px;
+        position: absolute;
+        left:28%;
+        top: 5%;
+    }
+    .crs p{
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        color: #363636;
+        opacity: 0.4;
+        font-weight: 600;
+        font-size: 12px;
+    }
+    
+    
+    .btn02{
+        margin-left: 100px;
+        margin-top: 70px;
+        margin-bottom: 0;
+    }
+    .btn02 > button{
+        border: 1px solid ;
+        width: 150px;
+        padding: 17px 24px 21px 20px;
+        text-align: left;
+        position: relative;
+        font-size: 10px;
+        background-color: #fff;
+        color: rgba(54, 54, 54, 0.85) !important;
+        border-color: rgba(54, 54, 54, 0.2);
+        font-weight: 700;
+        font-style: normal;
+        line-height: 1.42857143;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    
+    }
+    .btn02 button > span{
+        
+        position: absolute;
+        right: 0px;
+        margin-right: 10px;
+        margin-top: -5px;
+    }
+    .btn02 > button:hover{
+        cursor: pointer;
+        background-color: #fde700;
+        border: none;
+        transition: 1s;
+    }
+    
+    /* footer */
+    .foot01{ 
+        margin-left: 100px;
+        margin-bottom: 120px;
+    }
+    .sub01{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .sub01 > div {
+        width: 40px;
+        height: 40px;
+        font-weight: 800;
+    }
+    .sub01 > div:nth-child(1){
+        position: absolute;
+        left: 0%;
+        margin-top: 200px;
+        margin-left: 10px;
+        padding: 8px 10px 8px 10px;
+    }
+    .sub01 > div:nth-child(1) > span{
+        padding: 8px 8px 8px 12px;
+        
+    }
+    
+    .sub01 > div:nth-child(2){
+        position: absolute;
+        right: 0%;
+        margin-top: 200px;
+        margin-right: 10px;
+    }
+    .sub01 > div:nth-child(2) > span{
+        padding: 10px 10px 10px 10px;
+    }
+    .sub01 > div > span{
+        border: 1px solid rgba(54, 54, 54, 0.2);
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    
+    
+    .sub02{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    .sub02 > div > a > img {
+        width: 410px;
+        height: 410px;
+    }
+    
+    .sub02 > div:hover::after{
+        content: '';
+        display: block;
+        background:linear-gradient(0deg, rgba(253,231,0,1) 0%, rgba(253,231,0,0) 100%) !important;
+        position: absolute;
+        z-index: 1;
+        left:1;
+        top: 0;
+        width: 410px;
+        height: 410px;
+    }
+    
+    
+    /*하단 배경*/
+    .top h2,
+    .mid p,
+    .bottom p{
+        margin: 0px;
+        padding: 0px;
+    }
+    .foot02{
+        background-color: #FAFAFA;
+        height: 300px;
+        width: 100%;
+    }
+    .hadan{
+        border-bottom: 1px solid #e5e7eb;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .top img{
+       
+        width: 100px;
+        margin-left: 0;
+        text-align: left;
+        margin: 5px auto;
+        
+    }
+    .mid p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 2px;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 1.4;
+        font-style: normal;
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        color: inherit;
+    }
+    .bottom a{
+        margin-top: 8px;
+        margin-bottom: 7px;
+    }
+    .mid{
+        display: flex;
+        flex-direction: column;
+        transform: translateX(0%);
+    }
+    .mid > span{
+        margin-bottom: 10px;
+    }
+    .mid > button{
+        font-size: 10px;
+        font-weight: 600;
+        font-style: normal;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    
+    .mid > span{
+        font-weight: 600;
+        font-size: 10px;
+        color: rgba(54, 54, 54, 0.4) !important;
+        letter-spacing: -0.5px !important;
+        cursor: pointer;
+        line-height: 1.42857143;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    .mid > span > img{
+        width: 10px;
+        height: 10px;
+    }
+    
+    .mid > button{
+        width: 150px;
+        background-color: #FAFAFA;
+        border-color: rgba(54, 54, 54, 0.2);
+        padding: 13px 15px 15px 15px;
+        text-align: left;
+        position: relative;
+        font-size: 10px !important;
+        font-weight: 600;
+        color: rgba(54, 54, 54, 0.85) !important;
+        font-style: normal;
+        line-height: 1.42857143;font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif'; 
+    }
+    .bottom a{
+        font-size: 10px;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgba(54, 54, 54, 0.65) !important;
+        border-color: rgba(0, 0, 0, 0.2);
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        font-weight: 600;
+        font-style: normal;
+        line-height: 1.42857143;
+    }
+    .mid button > span{
+        position: absolute;
+        right: 8px;
+        margin-right: 10px;
+        margin-top: -1px;
+    }
+    
+    .hadan > h2 {
+        font-size: 34px;
+    }
+    .hadan02{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .hadan02 > span > img{
+        width: 15px;
+        height: 15px;
+    }
+    
+    
+    .mid > button:hover{
+        cursor: pointer;
+        border: none;
+        background-color: #fde700;
+        transition: 1s;
+    }
+
+}
+
+
+/*///////////////////////////////////////////////////*/
+
+
+
+
+
+
+@media screen and (max-width:480px) {
+    .head02{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 40%;
+        left: 0%;
+        transform: translateX(-50%);
+        cursor: pointer; 
+    }
+    .head02 img{
+        width: 30px;
+        height: 30px;
+    }
+    .head03{
+        width: 250px;
+        height: 100px;
+        transform: translateX(10%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 0;
+    }
+  
+    .head03 > a{
+        font-weight: bold;
+        font-size: 5px;
+        letter-spacing: 0px;
+        font-style: normal;
+        font-family: Aharoni,Spoqa Han Sans, sans-serif;
+        line-height: 1.5;
+    }
+    
+    .snsn01{
+        display: none;    
+    }
+    
+    .snsn02{
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .snsn02 > div > img{
+        width: 13px;
+        height: 13px;
+    }    
+    .head04{
+        display: flex;
+        margin-left: 100px;
+        margin-bottom: 60px;
+    }
+    .head04 > iframe{
+        height: 200px;
+    }
+
+    .head05{
+        list-style: none;
+        width: 100%;
+        padding-left: 0;
+    
+    }
+    .point01 > div{
+        position: absolute;
+        top: 5%;
+        left: 50%;
+    }
+    .point01 >  p {
+        font-weight: 600;
+        width: 80%;
+        font-size: 10px;
+        line-height: 1.2;
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    .point01 >  div img{
+        width: 8px;
+        height: 8px;
+    }
+    .point01 > span{
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        color: #363636;
+        opacity: 0.4;
+        font-weight: 600;
+        font-size: 8px;
+        width: 50%;
+    }
+    
+    
+    .btn01{
+        margin-top: 60px;
+    }
+    .btn01 > button{
+        font-size: 10px;
+        font-weight: 600;
+        padding: 10px 10px 10px 10px;
+        text-align: left;
+        background-color: #fff;
+        color: #333;
+        border-color: rgba(54, 54, 54, 0.2);
+        border-width: 1px;
+        width: 150px;
+        position: relative;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    .btn01 > button > span{
+        position: absolute;
+        right: 8px;
+        margin-right: 10px;
+        margin-top: -3px;
+        font-size:20px;
+    }
+    .btn01 > button:hover{
+        cursor: pointer;
+        background-color: #fde700;
+        border: none;
+        transition: 1s;
+    }
+    
+    .main01{
+        margin-top: 30px;
+        padding-bottom: 30px;
+        background-color: #FAFAFA;
+    }
+    
+    .point02{
+        display: flex;
+        padding: 20px 0 30px 0;
+        margin-left: 50px;
+    }
+    
+    .point02 > h2{ 
+        display: flex;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 1.2;
+        margin-bottom: 16px;
+        
+    }
+    .point02 img{
+        width:8px;
+        height: 8px; 
+    }
+    
+    .main02{
+        height: 100%;
+        width: 100%;
+    }
+    .fst{
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .fst > div img{
+        width: 80px;
+        height: 80px;
+    }
+  
+    .sec{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       margin-left: 100px;
+    }
+    .sec > div img{
+        width: 80px;
+        height: 80px;
+    }
+    
+    
+    .main03{
+        margin-top: 50px;
+        width: 400px;
+        margin-left: 50px;
+        position: relative;
+    }
+    .main03 > h2{
+        font-weight: 1000;
+        font-size: 15px;
+        line-height: 1.2;
+        color: inherit;
+        font-style: normal;
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    .point03{
+        width: 8px;
+        height: 8px;
+        position: absolute;
+        left:35%;
+        top: 5%;
+    }
+    .crs p{
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        color: #363636;
+        opacity: 0.4;
+        font-weight: 600;
+        font-size: 8px;
+    }
+    
+    
+    .btn02{
+        margin-left: 50px;
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+    .btn02 > button{
+        border: 1px solid ;
+        width: 150px;
+        padding: 10px 10px 10px 10px;
+        text-align: left;
+        position: relative;
+        font-size: 10px;
+        background-color: #fff;
+        color: rgba(54, 54, 54, 0.85) !important;
+        border-color: rgba(54, 54, 54, 0.2);
+        font-weight: 700;
+        font-style: normal;
+        line-height: 1.42857143;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    
+    }
+    .btn02 button > span{
+        
+        position: absolute;
+        right: 0px;
+        margin-right: 10px;
+        margin-top: -5px;
+    }
+    .btn02 > button:hover{
+        cursor: pointer;
+        background-color: #fde700;
+        border: none;
+        transition: 1s;
+    }
+    
+    /* footer */
+    .foot01{ 
+        margin-left: 100px;
+        margin-bottom: 120px;
+    }
+    .sub01{
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .sub01 > div {
+        width: 40px;
+        height: 40px;
+        font-weight: 800;
+    }
+    .sub01 > div:nth-child(1){
+        position: absolute;
+        left: 0%;
+        margin-top: 200px;
+        margin-left: 10px;
+        padding: 8px 10px 8px 10px;
+    }
+    .sub01 > div:nth-child(1) > span{
+        padding: 8px 8px 8px 12px;
+        
+    }
+    
+    .sub01 > div:nth-child(2){
+        position: absolute;
+        right: 0%;
+        margin-top: 200px;
+        margin-right: 10px;
+    }
+    .sub01 > div:nth-child(2) > span{
+        padding: 10px 10px 10px 10px;
+    }
+    .sub01 > div > span{
+        border: 1px solid rgba(54, 54, 54, 0.2);
+        background-color: #fff;
+        border-radius: 50%;
+    }
+    
+    
+    .sub02{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    .sub02 > div > a > img {
+        width: 410px;
+        height: 410px;
+    }
+    
+    .sub02 > div:hover::after{
+        content: '';
+        display: block;
+        background:linear-gradient(0deg, rgba(253,231,0,1) 0%, rgba(253,231,0,0) 100%) !important;
+        position: absolute;
+        z-index: 1;
+        left:1;
+        top: 0;
+        width: 410px;
+        height: 410px;
+    }
+    
+    
+    /*하단 배경*/
+    .top h2,
+    .mid p,
+    .bottom p{
+        margin: 0px;
+        padding: 0px;
+    }
+    .foot02{
+        background-color: #FAFAFA;
+        height: 150px;
+        width: 100%;
+    }
+    .hadan{
+        border-bottom: 1px solid #e5e7eb;
+        padding-top: 20px;
+        padding-bottom: 0;
+        margin-left: 50px;
+        margin-right: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .top img{
+        width: 80px;
+        margin-left: 0;
+        text-align: left;
+        margin: 5px auto;
+        
+    }
+    .mid p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 2px;
+        font-size: 8px;
+        font-weight: 600;
+        line-height: 1.4;
+        font-style: normal;
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        color: inherit;
+    }
+    .bottom a{
+        margin-top: 8px;
+        margin-bottom: 7px;
+    }
+    .mid{
+        scale: 0.8;
+        display: flex;
+        flex-direction: column;
+        transform: translateY(-20%);
+    }
+    .mid > span{
+        margin-bottom: 10px;
+    }
+    .mid > button{
+        font-size: 8px;
+        font-weight: 600;
+        font-style: normal;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    
+    .mid > span{
+        font-weight: 600;
+        font-size: 10px;
+        color: rgba(54, 54, 54, 0.4) !important;
+        letter-spacing: -0.5px !important;
+        cursor: pointer;
+        line-height: 1.42857143;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    .mid > span > img{
+        width: 10px;
+        height: 10px;
+    }
+    
+    .mid > button{
+        width: 150px;
+        background-color: #FAFAFA;
+        border-color: rgba(54, 54, 54, 0.2);
+        padding: 10px 10px 10px 10px;
+        text-align: left;
+        position: relative;
+        font-size: 10px !important;
+        font-weight: 600;
+        color: rgba(54, 54, 54, 0.85) !important;
+        font-style: normal;
+        line-height: 1.42857143;font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif'; 
+    }
+    .bottom a{
+        font-size: 8px;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgba(54, 54, 54, 0.65) !important;
+        border-color: rgba(0, 0, 0, 0.2);
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        font-weight: 600;
+        font-style: normal;
+        line-height: 1.42857143;
+    }
+    .mid button > span{
+        position: absolute;
+        right: 8px;
+        margin-right: 10px;
+        margin-top: -1px;
+    }
+    
+    .hadan > h2 {
+        font-size: 34px;
+    }
+    .hadan02{
+        margin-left: 50px;
+        margin-right: 100px;
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 8px;
+        font-weight: 600;
+    }
+    .hadan02 > span > img{
+        width: 10px;
+        height: 10px;
+    }
+    
+    
+    .mid > button:hover{
+        cursor: pointer;
+        border: none;
+        background-color: #fde700;
+        transition: 1s;
+    }
+
+}

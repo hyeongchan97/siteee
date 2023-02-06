@@ -1,0 +1,975 @@
+html,body{margin: 0; font-size: 16px;}
+
+/*head*/
+
+.head01{
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    display: flex;
+    
+}
+.head02{
+    width: 61px;
+    height: 61px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.head02 img{
+    width: 61px;
+    height: 61px;
+}
+.head03{
+    width: 440px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+}
+.head03 > a{
+    text-decoration: none;
+    color: black;
+}
+
+.head03 > a{
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 0px;
+    font-style: normal;
+    font-family: Aharoni,Spoqa Han Sans, sans-serif;
+    line-height: 1.5;
+}
+.head03 > a:nth-child(2){
+    color: #fde700;
+}
+.head03 span:hover{
+    cursor: pointer;
+    color: gray;
+}
+
+.snsn01{
+    width: 228px;
+    height:100px;
+    position: absolute;
+    right: 0;
+}
+
+.snsn02{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.snsn02 > div > img{
+    width: 19px;
+    height: 19px;
+}
+.snsn02 > div:hover{
+    cursor: pointer;
+    opacity: 0.4;
+}
+.fixx {
+    background-color: #fff;
+    position: sticky;
+    z-index: 999;
+    top: 0px;
+  }
+  
+
+
+
+
+.head04{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.head04 a > img{
+    width: 100%;
+    height: 1135px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.head01{
+    background-color: #fff;
+    position: sticky;
+    top: 0px;
+}
+
+
+
+/*main*/
+main div ul{
+    padding-left: 0;
+}
+.main01{
+    height: 436px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main02{
+    
+    width: 800px;
+    padding: 0 20px;
+    margin: 10px 0;
+}
+.main02 > h2{
+    font-size: 1.714em;
+    line-height: 1.2;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.main03{
+    
+    width: 800px;
+    padding: 0 20px;
+}
+.main03 > p{
+    font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    color: #363636;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+/* footer */
+.top h2,
+.mid p,
+.bottom p{
+    margin: 0px;
+    padding: 0px;
+}
+.foot02{
+    background-color: #FAFAFA;
+    height: 354px;
+    width: 100%;
+}
+.hadan{
+    border-bottom: 1px solid black;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.top img{
+   
+    width: 200px;
+    margin-left: 0;
+    text-align: left;
+    margin: 5px auto;
+    
+}
+.mid p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.4;
+    font-style: normal;
+    font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    color: inherit;
+}
+.bottom a{
+    margin-top: 8px;
+    margin-bottom: 7px;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    transform: translateX(-100%);
+}
+.mid span{
+    margin-bottom: 30px;
+}
+.mid > span{
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(54, 54, 54, 0.4) !important;
+    letter-spacing: -0.5px !important;
+    cursor: pointer;
+    line-height: 1.42857143;
+    font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+}
+.mid > span > img{
+    width: 14px;
+    height: 14px;
+}
+.mid > button{
+    background-color: #FAFAFA;
+    border-color: rgba(54, 54, 54, 0.2);
+    padding: 17px 24px 21px 20px;
+    text-align: left;
+    position: relative;
+    font-size: 13px !important;
+    font-weight: 600;
+    color: rgba(54, 54, 54, 0.85) !important;
+    font-style: normal;
+    line-height: 1.42857143;font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif'; 
+}
+.bottom a {
+    font-size: 18px;
+    color: rgba(54, 54, 54, 0.65);
+    font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    font-weight: 600;
+}
+.mid button > span{
+    position: absolute;
+    right: 8px;
+    margin-right: 10px;
+    margin-top: -1px;
+}
+.hadan > h2 {
+    font-size: 34px;
+}
+.hadan02{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.hadan02 > span > img{
+    width: 15px;
+    height: 15px;
+}
+
+.mid > button:hover{
+    cursor: pointer;
+    border: none;
+    background-color: #fde700;
+    transition: 1s;
+}
+
+
+@media screen and (max-width:1400px){
+    .head04{
+        margin-left: 100px;
+    }
+    .head04 a > img{
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+
+
+    .foot02{
+        background-color: #FAFAFA;
+        height: 354px;
+        width: 100%;
+    }
+    .hadan{
+        /* border: 1px solid red; */
+        border-bottom: 1px solid #e5e7eb;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .top img{
+       
+        width: 200px;
+        margin-left: 0;
+        text-align: left;
+        margin: 5px auto;
+        
+    }
+    .mid p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 2px;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.4;
+        font-style: normal;
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        color: inherit;
+    }
+    .bottom a{
+        margin-top: 8px;
+        margin-bottom: 7px;
+    }
+    .mid{
+        display: flex;
+        flex-direction: column;
+        transform: translateX(0%);
+    }
+    .mid span{
+        margin-bottom: 30px;
+    }
+    .mid > button{
+        font-size: 14px;
+        font-weight: 600;
+        font-style: normal;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    
+    .mid > span{
+        font-weight: 600;
+        font-size: 14px;
+        color: rgba(54, 54, 54, 0.4) !important;
+        letter-spacing: -0.5px !important;
+        cursor: pointer;
+        line-height: 1.42857143;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    .mid > span > img{
+        width: 14px;
+        height: 14px;
+    }
+    
+    .mid > button{
+        background-color: #FAFAFA;
+        border-color: rgba(54, 54, 54, 0.2);
+        padding: 17px 24px 21px 20px;
+        text-align: left;
+        position: relative;
+        font-size: 13px !important;
+        font-weight: 600;
+        color: rgba(54, 54, 54, 0.85) !important;
+        font-style: normal;
+        line-height: 1.42857143;font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif'; 
+    }
+    .bottom a{
+        font-size: 18px;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgba(54, 54, 54, 0.65) !important;
+        border-color: rgba(0, 0, 0, 0.2);
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        font-weight: 600;
+        font-style: normal;
+        line-height: 1.42857143;
+    }
+    .mid button > span{
+        position: absolute;
+        right: 8px;
+        margin-right: 10px;
+        margin-top: -1px;
+    }
+    
+    .hadan > h2 {
+        font-size: 34px;
+    }
+    .hadan02{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .hadan02 > span > img{
+        width: 15px;
+        height: 15px;
+    }
+    
+    
+    .mid > button:hover{
+        cursor: pointer;
+        border: none;
+        background-color: #fde700;
+        transition: 1s;
+    }
+
+}
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////*/
+@media screen and (max-width:1023px){
+    .head04{
+        margin-left: 100px;
+    }
+    .head04 a > img{
+        width: 100%;
+        height: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+
+
+    .foot02{
+        background-color: #FAFAFA;
+        height: 354px;
+        width: 100%;
+    }
+    .hadan{
+        border-bottom: 1px solid #e5e7eb;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .top img{
+       
+        width: 150px;
+        margin-left: 0;
+        text-align: left;
+        margin: 5px auto;
+        
+    }
+    .mid p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 2px;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 1.4;
+        font-style: normal;
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        color: inherit;
+    }
+    .bottom a{
+        margin-top: 8px;
+        margin-bottom: 7px;
+    }
+    .mid{
+        display: flex;
+        flex-direction: column;
+        transform: translateX(0%);
+    }
+    .mid > span{
+        margin-bottom: 30px;
+    }
+    .mid > button{
+        font-size: 10px;
+        font-weight: 600;
+        font-style: normal;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    
+    .mid > span{
+        font-weight: 600;
+        font-size: 10px;
+        color: rgba(54, 54, 54, 0.4) !important;
+        letter-spacing: -0.5px !important;
+        cursor: pointer;
+        line-height: 1.42857143;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    .mid > span > img{
+        width: 14px;
+        height: 14px;
+    }
+    
+    .mid > button{
+        background-color: #FAFAFA;
+        border-color: rgba(54, 54, 54, 0.2);
+        padding: 17px 24px 21px 20px;
+        text-align: left;
+        position: relative;
+        font-size: 10px !important;
+        font-weight: 600;
+        color: rgba(54, 54, 54, 0.85) !important;
+        font-style: normal;
+        line-height: 1.42857143;font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif'; 
+    }
+    .bottom a{
+        font-size: 12px;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgba(54, 54, 54, 0.65) !important;
+        border-color: rgba(0, 0, 0, 0.2);
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        font-weight: 600;
+        font-style: normal;
+        line-height: 1.42857143;
+    }
+    .mid button > span{
+        position: absolute;
+        right: 8px;
+        margin-right: 10px;
+        margin-top: -1px;
+    }
+    
+    .hadan > h2 {
+        font-size: 34px;
+    }
+    .hadan02{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .hadan02 > span > img{
+        width: 15px;
+        height: 15px;
+    }
+    
+    
+    .mid > button:hover{
+        cursor: pointer;
+        border: none;
+        background-color: #fde700;
+        transition: 1s;
+    }
+
+}
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////*/
+@media screen and (max-width:767px){
+    .head02{
+        width: 61px;
+        height: 61px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+    .head02 img{
+        width: 50px;
+        height: 50px;
+    }
+    .head03{
+        width: 250px;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 100px;
+    }
+  
+    .head03 > a{
+        font-weight: bold;
+        font-size: 8px;
+        letter-spacing: 0px;
+        font-style: normal;
+        font-family: Aharoni,Spoqa Han Sans, sans-serif;
+        line-height: 1.5;
+    }
+    
+    .snsn01{
+        width: 100px;
+        height:100px;
+        position: absolute;
+        right: 0;
+    }
+    
+    .snsn02{
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .snsn02 > div > img{
+        width: 13px;
+        height: 13px;
+    }    
+
+    .main01{
+        height: 100%;
+        margin-left: 100px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main02{
+        width: 100%;
+        padding: 0 20px;
+        margin-left: 50px;
+    }
+    .main02 > h2{
+        font-size: 1.714em;
+        line-height: 1.2;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+    }
+    
+    .main03{
+        width: 90%;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .main03 > p{
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        color: #363636;
+        font-size: 12px;
+        line-height: 1.5;
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+
+
+
+    .foot02{
+        background-color: #FAFAFA;
+        height: 300px;
+        width: 100%;
+    }
+    .hadan{
+        border-bottom: 1px solid #e5e7eb;
+        padding-top: 40px;
+        padding-bottom: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .top img{
+       
+        width: 100px;
+        margin-left: 0;
+        text-align: left;
+        margin: 5px auto;
+        
+    }
+    .mid p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 2px;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 1.4;
+        font-style: normal;
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        color: inherit;
+    }
+    .bottom a{
+        margin-top: 8px;
+        margin-bottom: 7px;
+    }
+    .mid{
+        display: flex;
+        flex-direction: column;
+        transform: translateX(0%);
+    }
+    .mid > span{
+        margin-bottom: 10px;
+    }
+    .mid > button{
+        font-size: 10px;
+        font-weight: 600;
+        font-style: normal;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    
+    .mid > span{
+        font-weight: 600;
+        font-size: 10px;
+        color: rgba(54, 54, 54, 0.4) !important;
+        letter-spacing: -0.5px !important;
+        cursor: pointer;
+        line-height: 1.42857143;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    .mid > span > img{
+        width: 10px;
+        height: 10px;
+    }
+    
+    .mid > button{
+        width: 150px;
+        background-color: #FAFAFA;
+        border-color: rgba(54, 54, 54, 0.2);
+        padding: 13px 15px 15px 15px;
+        text-align: left;
+        position: relative;
+        font-size: 10px !important;
+        font-weight: 600;
+        color: rgba(54, 54, 54, 0.85) !important;
+        font-style: normal;
+        line-height: 1.42857143;font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif'; 
+    }
+    .bottom a{
+        font-size: 10px;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgba(54, 54, 54, 0.65) !important;
+        border-color: rgba(0, 0, 0, 0.2);
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        font-weight: 600;
+        font-style: normal;
+        line-height: 1.42857143;
+    }
+    .mid button > span{
+        position: absolute;
+        right: 8px;
+        margin-right: 10px;
+        margin-top: -1px;
+    }
+    
+    .hadan > h2 {
+        font-size: 34px;
+    }
+    .hadan02{
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+        font-weight: 600;
+    }
+    .hadan02 > span > img{
+        width: 15px;
+        height: 15px;
+    }
+    
+    
+    .mid > button:hover{
+        cursor: pointer;
+        border: none;
+        background-color: #fde700;
+        transition: 1s;
+    }
+
+}
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////*/
+@media screen and (max-width:480px){
+    .head02{
+        width: 30px;
+        height: 30px;
+        position: absolute;
+        top: 40%;
+        left: 0%;
+        transform: translateX(-50%);
+        cursor: pointer; 
+    }
+    .head02 img{
+        width: 30px;
+        height: 30px;
+    }
+    .head03{
+        width: 250px;
+        height: 100px;
+        transform: translateX(10%);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 0;
+    }
+  
+    .head03 > a{
+        font-weight: bold;
+        font-size: 5px;
+        letter-spacing: 0px;
+        font-style: normal;
+        font-family: Aharoni,Spoqa Han Sans, sans-serif;
+        line-height: 1.5;
+    }
+    
+    .snsn01{
+        display: none;    
+    }
+    
+    .snsn02{
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .snsn02 > div > img{
+        width: 13px;
+        height: 13px;
+    }    
+    .head04{
+        display: flex;
+        margin-left: 100px;
+        margin-bottom: 60px;
+    }
+
+    .main01{
+        margin-left: 50px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .main02{
+        width: 100%;
+        padding: 0 20px;
+        margin-left: 30px;
+    }
+    .main02 > h2{
+        font-size: 1.714em;
+        line-height: 1.2;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+    }
+    
+    .main03{
+        width: 90%;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .main03 > p{
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        color: #363636;
+        font-size: 10px;
+        line-height: 1.5;
+        font-weight: normal;
+        font-style: normal;
+    }
+    
+
+
+
+    .foot02{
+        background-color: #FAFAFA;
+        height: 150px;
+        width: 100%;
+    }
+    .hadan{
+        border-bottom: 1px solid #e5e7eb;
+        padding-top: 20px;
+        padding-bottom: 0;
+        margin-left: 50px;
+        margin-right: 0;
+        display: flex;
+        justify-content: space-between;
+    }
+    .top img{
+        width: 80px;
+        margin-left: 0;
+        text-align: left;
+        margin: 5px auto;
+        
+    }
+    .mid p{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-bottom: 2px;
+        font-size: 8px;
+        font-weight: 600;
+        line-height: 1.4;
+        font-style: normal;
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        color: inherit;
+    }
+    .bottom a{
+        margin-top: 8px;
+        margin-bottom: 7px;
+    }
+    .mid{
+        scale: 0.8;
+        display: flex;
+        flex-direction: column;
+        transform: translateY(-20%);
+    }
+    .mid > span{
+        margin-bottom: 10px;
+    }
+    .mid > button{
+        font-size: 8px;
+        font-weight: 600;
+        font-style: normal;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    
+    .mid > span{
+        font-weight: 600;
+        font-size: 10px;
+        color: rgba(54, 54, 54, 0.4) !important;
+        letter-spacing: -0.5px !important;
+        cursor: pointer;
+        line-height: 1.42857143;
+        font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+    }
+    .mid > span > img{
+        width: 10px;
+        height: 10px;
+    }
+    
+    .mid > button{
+        width: 150px;
+        background-color: #FAFAFA;
+        border-color: rgba(54, 54, 54, 0.2);
+        padding: 10px 10px 10px 10px;
+        text-align: left;
+        position: relative;
+        font-size: 10px !important;
+        font-weight: 600;
+        color: rgba(54, 54, 54, 0.85) !important;
+        font-style: normal;
+        line-height: 1.42857143;font-family: 'Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif'; 
+    }
+    .bottom a{
+        font-size: 8px;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgba(54, 54, 54, 0.65) !important;
+        border-color: rgba(0, 0, 0, 0.2);
+        font-family: 'Gilroy','Spoqa Han Sans','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
+        font-weight: 600;
+        font-style: normal;
+        line-height: 1.42857143;
+    }
+    .mid button > span{
+        position: absolute;
+        right: 8px;
+        margin-right: 10px;
+        margin-top: -1px;
+    }
+    
+    .hadan > h2 {
+        font-size: 34px;
+    }
+    .hadan02{
+        margin-left: 50px;
+        margin-right: 100px;
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 8px;
+        font-weight: 600;
+    }
+    .hadan02 > span > img{
+        width: 10px;
+        height: 10px;
+    }
+    
+    
+    .mid > button:hover{
+        cursor: pointer;
+        border: none;
+        background-color: #fde700;
+        transition: 1s;
+    }
+
+}
+
+
+
+
+
