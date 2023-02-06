@@ -3,7 +3,7 @@ let repName = location.pathname.split('/')[1];
 $('body').prepend('<header>');
 // $('body').append('<footer>');
 
-$('header').load(`/${repName}/inc.html header>div`,head);
+//$('header').load(`/${repName}/inc.html header>div`,head);
 // $('footer').load(`/${repName}/inc.html footer>div`);
 
 
@@ -13,7 +13,7 @@ function head(){
     $('header a').eq(idx).addClass('active');
     // 클래스 추가
     
-    $('header a').click(function(e){//클릭 이벤트
+    $('header a').click(function(e){//클릭 이벤트https://github.com/hyeongchan97/siteee/blob/main/js/index.js
         e.preventDefault();
         let idx = $(this).index();
         localStorage.idx = idx;
